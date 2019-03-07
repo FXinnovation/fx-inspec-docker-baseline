@@ -1,4 +1,4 @@
-include_controls 'dev-sec/linux-baseline' do
+include_controls 'dev-sec/linux-baseline'
   #skip_control 'sysctl-01'
   #skip_control 'sysctl-02'
   #skip_control 'sysctl-03'
@@ -33,7 +33,6 @@ include_controls 'dev-sec/linux-baseline' do
   #skip_control 'sysctl-31b'
   #skip_control 'sysctl-32'
   #skip_control 'sysctl-33'
-end
 
 #require_controls 'dev-sec/cis-docker-benchmark' do
 #  control 'docker-4.1'
