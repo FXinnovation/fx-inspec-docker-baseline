@@ -1,3 +1,5 @@
+puts os
+
 include_controls 'dev-sec/linux-baseline' do
   skip_control 'sysctl-01'
   skip_control 'sysctl-02'
