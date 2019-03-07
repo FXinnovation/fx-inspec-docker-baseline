@@ -35,16 +35,16 @@ include_controls 'dev-sec/linux-baseline' do
   skip_control 'sysctl-33'
 end
 
-require_controls 'dev-sec/cis-docker-benchmark' do
-  control 'docker-4.1'
-  control 'docker-4.2'
-  control 'docker-4.3'
-  control 'docker-4.4'
-  control 'docker-4.5'
-  control 'docker-4.6'
-  control 'docker-4.7'
-  control 'docker-4.8'
-  control 'docker-4.9'
-  control 'docker-4.10'
-  control 'docker-4.11'
-end
+#require_controls 'dev-sec/cis-docker-benchmark' do
+#  control 'docker-4.1'
+#  control 'docker-4.2'
+#  control 'docker-4.3'
+#  control 'docker-4.4'
+#  control 'docker-4.5'
+#  control 'docker-4.6'
+#  control 'docker-4.7'
+#  control 'docker-4.8'
+#  control 'docker-4.9'
+#  control 'docker-4.10'
+#  control 'docker-4.11'
+#end
