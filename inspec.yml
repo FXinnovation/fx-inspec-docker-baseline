@@ -9,5 +9,5 @@ version: 0.1.0
 supports:
   - os-family: linux
 depends:
-  - name: "dev-sec/linux-baseline"
-    supermarket: dev-sec/linux-baseline
+  - name: dev-sec/linux-baseline
+    url: https://github.com/dev-sec/linux-baseline/archive/2.1.0.tar.gz
