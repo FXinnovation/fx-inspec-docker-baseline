@@ -1,7 +1,6 @@
 puts os
-title 'foobar'
-
   include_controls 'dev-sec/linux-baseline' do
+    title 'chefdk - linux baseline'
     skip_control 'sysctl-01'
     skip_control 'sysctl-02'
     skip_control 'sysctl-03'
