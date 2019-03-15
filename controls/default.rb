@@ -1,8 +1,7 @@
 puts os
 
-control 'this_image' do
-  tag 'image_name/chefdk'
   include_controls 'dev-sec/linux-baseline' do
+    tag 'image/chefdk'
     skip_control 'sysctl-01'
     skip_control 'sysctl-02'
     skip_control 'sysctl-03'
@@ -38,7 +37,6 @@ control 'this_image' do
     skip_control 'sysctl-32'
     skip_control 'sysctl-33'
   end
-end
 
 #require_controls 'dev-sec/cis-docker-benchmark' do
 #  control 'docker-4.1'
