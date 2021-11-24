@@ -33,6 +33,7 @@ include_controls 'dev-sec/linux-baseline' do
   skip_control 'sysctl-31b'
   skip_control 'sysctl-32'
   skip_control 'sysctl-33'
+  skip_control 'os-14'
 end
 
 #require_controls 'dev-sec/cis-docker-benchmark' do
